@@ -43,6 +43,7 @@ model.add(Dropout(0.5))
 model.add(Dense(10))
 model.add(Activation('softmax'))
 
+#Much like Adam is essentially RMSprop with momentum, Nadam is Adam RMSprop with Nesterov momentum.
 model.compile(optimizer='nadam',
               loss='categorical_crossentropy',
               metrics=['accuracy'])
