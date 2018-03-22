@@ -30,6 +30,13 @@ model.add(MaxPool2D())
 model.add(BatchNormalization())
 model.add(Dropout(0.6))
 
+#add extra layers
+model.add(Conv2D(512, (3, 3), activation='relu', padding='same'))
+model.add(Conv2D(512, (1, 1), activation='relu'))
+model.add(MaxPool2D())
+model.add(BatchNormalization())
+model.add(Dropout(0.6))
+
 model.add(Flatten())
 model.add(Dense(512, activation='relu'))
 model.add(Dropout(0.5))
@@ -53,9 +60,7 @@ model.fit(x_train, y_train,
           verbose=2,
           callbacks=[NeptuneCallback(x_test, y_test, images_per_epoch=20)])
 
-
 '''
-________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
 conv2d_1 (Conv2D)            (None, 32, 32, 64)        1792      
@@ -88,24 +93,35 @@ batch_normalization_3 (Batch (None, 4, 4, 256)         1024
 _________________________________________________________________
 dropout_3 (Dropout)          (None, 4, 4, 256)         0         
 _________________________________________________________________
-flatten_1 (Flatten)          (None, 4096)              0         
+conv2d_7 (Conv2D)            (None, 4, 4, 512)         1180160   
 _________________________________________________________________
-dense_1 (Dense)              (None, 512)               2097664   
+conv2d_8 (Conv2D)            (None, 4, 4, 512)         262656    
 _________________________________________________________________
-dropout_4 (Dropout)          (None, 512)               0         
+max_pooling2d_4 (MaxPooling2 (None, 2, 2, 512)         0         
+_________________________________________________________________
+batch_normalization_4 (Batch (None, 2, 2, 512)         2048      
+_________________________________________________________________
+dropout_4 (Dropout)          (None, 2, 2, 512)         0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 2048)              0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 512)               1049088   
+_________________________________________________________________
+dropout_5 (Dropout)          (None, 512)               0         
 _________________________________________________________________
 dense_2 (Dense)              (None, 10)                5130      
 _________________________________________________________________
 activation_1 (Activation)    (None, 10)                0         
 =================================================================
-Total params: 2,561,866
-Trainable params: 2,560,970
-Non-trainable params: 896
+Total params: 2,958,154
+Trainable params: 2,956,234
+Non-trainable params: 1,920
 _________________________________________________________________
 
-Log-loss training: 0.323506
-Log-loss validation: 0.460243
-Accuracy training: 0.88882
-Accuracy validation: 0.8568
+
+Log-loss training:  0.387181
+Log-loss validation: 0.483825
+Accuracy training: 0.87436
+Accuracy validation: 0.8615
 
 '''

@@ -11,14 +11,12 @@ ctx.tags.append('adv')
 # create neural network architecture
 model = Sequential()
 
-model.add(Conv2D(64, (3, 3), activation='relu', padding='same',
-                 input_shape=(32, 32, 3)))
-model.add(Conv2D(64, (1, 1), activation='relu'))
+model.add(Conv2D(64, (5, 5), activation='relu', padding='same', input_shape=(32, 32, 3)))
 model.add(MaxPool2D())
 model.add(BatchNormalization())
 model.add(Dropout(0.5))
 
-model.add(Conv2D(128, (3, 3), activation='relu', padding='same'))
+model.add(Conv2D(128, (5, 5), activation='relu', padding='same'))
 model.add(Conv2D(128, (1, 1), activation='relu'))
 model.add(MaxPool2D())
 model.add(BatchNormalization())
@@ -30,11 +28,25 @@ model.add(MaxPool2D())
 model.add(BatchNormalization())
 model.add(Dropout(0.6))
 
+#add extra layers
+model.add(Conv2D(512, (3, 3), activation='relu', padding='same'))
+model.add(MaxPool2D())
+model.add(BatchNormalization())
+model.add(Dropout(0.6))
+
 model.add(Flatten())
 model.add(Dense(512, activation='relu'))
 model.add(Dropout(0.5))
+model.add(Dense(1024, activation='relu'))
+model.add(Dropout(0.5))
+model.add(Dense(2048, activation='relu'))
+model.add(Dropout(0.5))
 model.add(Dense(10))
+
+
 model.add(Activation('softmax'))
+
+
 
 model.compile(optimizer='nadam',
               loss='categorical_crossentropy',
@@ -53,14 +65,10 @@ model.fit(x_train, y_train,
           verbose=2,
           callbacks=[NeptuneCallback(x_test, y_test, images_per_epoch=20)])
 
-
 '''
-________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
-conv2d_1 (Conv2D)            (None, 32, 32, 64)        1792      
-_________________________________________________________________
-conv2d_2 (Conv2D)            (None, 32, 32, 64)        4160      
+conv2d_1 (Conv2D)            (None, 32, 32, 64)        4864      
 _________________________________________________________________
 max_pooling2d_1 (MaxPooling2 (None, 16, 16, 64)        0         
 _________________________________________________________________
@@ -68,9 +76,9 @@ batch_normalization_1 (Batch (None, 16, 16, 64)        256
 _________________________________________________________________
 dropout_1 (Dropout)          (None, 16, 16, 64)        0         
 _________________________________________________________________
-conv2d_3 (Conv2D)            (None, 16, 16, 128)       73856     
+conv2d_2 (Conv2D)            (None, 16, 16, 128)       204928    
 _________________________________________________________________
-conv2d_4 (Conv2D)            (None, 16, 16, 128)       16512     
+conv2d_3 (Conv2D)            (None, 16, 16, 128)       16512     
 _________________________________________________________________
 max_pooling2d_2 (MaxPooling2 (None, 8, 8, 128)         0         
 _________________________________________________________________
@@ -78,9 +86,9 @@ batch_normalization_2 (Batch (None, 8, 8, 128)         512
 _________________________________________________________________
 dropout_2 (Dropout)          (None, 8, 8, 128)         0         
 _________________________________________________________________
-conv2d_5 (Conv2D)            (None, 8, 8, 256)         295168    
+conv2d_4 (Conv2D)            (None, 8, 8, 256)         295168    
 _________________________________________________________________
-conv2d_6 (Conv2D)            (None, 8, 8, 256)         65792     
+conv2d_5 (Conv2D)            (None, 8, 8, 256)         65792     
 _________________________________________________________________
 max_pooling2d_3 (MaxPooling2 (None, 4, 4, 256)         0         
 _________________________________________________________________
@@ -88,24 +96,41 @@ batch_normalization_3 (Batch (None, 4, 4, 256)         1024
 _________________________________________________________________
 dropout_3 (Dropout)          (None, 4, 4, 256)         0         
 _________________________________________________________________
-flatten_1 (Flatten)          (None, 4096)              0         
+conv2d_6 (Conv2D)            (None, 4, 4, 512)         1180160   
 _________________________________________________________________
-dense_1 (Dense)              (None, 512)               2097664   
+max_pooling2d_4 (MaxPooling2 (None, 2, 2, 512)         0         
 _________________________________________________________________
-dropout_4 (Dropout)          (None, 512)               0         
+batch_normalization_4 (Batch (None, 2, 2, 512)         2048      
 _________________________________________________________________
-dense_2 (Dense)              (None, 10)                5130      
+dropout_4 (Dropout)          (None, 2, 2, 512)         0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 2048)              0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 512)               1049088   
+_________________________________________________________________
+dropout_5 (Dropout)          (None, 512)               0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 1024)              525312    
+_________________________________________________________________
+dropout_6 (Dropout)          (None, 1024)              0         
+_________________________________________________________________
+dense_3 (Dense)              (None, 2048)              2099200   
+_________________________________________________________________
+dropout_7 (Dropout)          (None, 2048)              0         
+_________________________________________________________________
+dense_4 (Dense)              (None, 10)                20490     
 _________________________________________________________________
 activation_1 (Activation)    (None, 10)                0         
 =================================================================
-Total params: 2,561,866
-Trainable params: 2,560,970
-Non-trainable params: 896
+Total params: 5,465,354
+Trainable params: 5,463,434
+Non-trainable params: 1,920
 _________________________________________________________________
 
-Log-loss training: 0.323506
-Log-loss validation: 0.460243
-Accuracy training: 0.88882
-Accuracy validation: 0.8568
+
+Log-loss training: 0.649556
+Log-loss validation: 0.616207
+Accuracy training: 0.80068
+Accuracy validation: 0.8076
 
 '''
