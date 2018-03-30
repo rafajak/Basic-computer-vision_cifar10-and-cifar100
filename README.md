@@ -2,9 +2,10 @@
 ### Best scores so far:
  
 #### Cifar-10:
-Log-loss validation: 0.484
+ Accuracy validation: 0.862
 
-Accuracy validation: 0.862
+ Log-loss validation: 0.484
+
 
 ![alt text](https://github.com/rafajak/training/blob/master/img/Screenshot%20from%202018-03-30%2013-04-39.png
 )
