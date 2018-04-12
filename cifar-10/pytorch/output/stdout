@@ -1,0 +1,603 @@
+Files already downloaded and verified
+Files already downloaded and verified
+50000 10000
+Epoch 1
+ avg_training_loss: 0.012567299201488495
+ avg_training_acc: 0.40396
+ avg_test_loss: 0.010192963135242462
+ avg_test_acc: 0.5319
+
+Epoch 2
+ avg_training_loss: 0.010139033777713776
+ avg_training_acc: 0.53484
+ avg_test_loss: 0.00842339038848877
+ avg_test_acc: 0.6138
+
+Epoch 3
+ avg_training_loss: 0.009001000590324403
+ avg_training_acc: 0.59108
+ avg_test_loss: 0.0080967689037323
+ avg_test_acc: 0.6452
+
+Epoch 4
+ avg_training_loss: 0.008172335895299912
+ avg_training_acc: 0.6315
+ avg_test_loss: 0.0068809221804141995
+ avg_test_acc: 0.6939
+
+Epoch 5
+ avg_training_loss: 0.007612260376214981
+ avg_training_acc: 0.6596
+ avg_test_loss: 0.0063600700616836545
+ avg_test_acc: 0.7171
+
+Epoch 6
+ avg_training_loss: 0.007200644716024399
+ avg_training_acc: 0.67874
+ avg_test_loss: 0.006096057552099228
+ avg_test_acc: 0.7314
+
+Epoch 7
+ avg_training_loss: 0.006807253968715668
+ avg_training_acc: 0.69692
+ avg_test_loss: 0.005988651829957962
+ avg_test_acc: 0.7383
+
+Epoch 8
+ avg_training_loss: 0.0065276072657108304
+ avg_training_acc: 0.71032
+ avg_test_loss: 0.005469688749313355
+ avg_test_acc: 0.762
+
+Epoch 9
+ avg_training_loss: 0.006325835736989975
+ avg_training_acc: 0.72046
+ avg_test_loss: 0.005549477496743202
+ avg_test_acc: 0.7575
+
+Epoch 10
+ avg_training_loss: 0.006106326314210892
+ avg_training_acc: 0.73226
+ avg_test_loss: 0.005163377380371093
+ avg_test_acc: 0.7778
+
+Epoch 11
+ avg_training_loss: 0.0058968326485157015
+ avg_training_acc: 0.7409
+ avg_test_loss: 0.005426287993788719
+ avg_test_acc: 0.7717
+
+Epoch 12
+ avg_training_loss: 0.005758327180147171
+ avg_training_acc: 0.74522
+ avg_test_loss: 0.005025404566526413
+ avg_test_acc: 0.7805
+
+Epoch 13
+ avg_training_loss: 0.005590932814478874
+ avg_training_acc: 0.75446
+ avg_test_loss: 0.005208172649145126
+ avg_test_acc: 0.7819
+
+Epoch 14
+ avg_training_loss: 0.005513886820673943
+ avg_training_acc: 0.75502
+ avg_test_loss: 0.0049287533968687056
+ avg_test_acc: 0.7901
+
+Epoch 15
+ avg_training_loss: 0.005399888101816177
+ avg_training_acc: 0.76358
+ avg_test_loss: 0.005496396538615227
+ avg_test_acc: 0.7734
+
+Epoch 16
+ avg_training_loss: 0.005321867944002152
+ avg_training_acc: 0.76778
+ avg_test_loss: 0.005290241453051567
+ avg_test_acc: 0.7762
+
+Epoch 17
+ avg_training_loss: 0.005155796566605568
+ avg_training_acc: 0.7728
+ avg_test_loss: 0.004862689435482025
+ avg_test_acc: 0.7909
+
+Epoch 18
+ avg_training_loss: 0.005121671615839004
+ avg_training_acc: 0.7756
+ avg_test_loss: 0.0045542068660259245
+ avg_test_acc: 0.8068
+
+Epoch 19
+ avg_training_loss: 0.005002251213788987
+ avg_training_acc: 0.78116
+ avg_test_loss: 0.0045350482374429705
+ avg_test_acc: 0.8107
+
+Epoch 20
+ avg_training_loss: 0.0049029417490959164
+ avg_training_acc: 0.78566
+ avg_test_loss: 0.004758847311139107
+ avg_test_acc: 0.7952
+
+Epoch 21
+ avg_training_loss: 0.004853445107936859
+ avg_training_acc: 0.78938
+ avg_test_loss: 0.004420182952284813
+ avg_test_acc: 0.8124
+
+Epoch 22
+ avg_training_loss: 0.0047424479621648785
+ avg_training_acc: 0.79276
+ avg_test_loss: 0.004696199357509613
+ avg_test_acc: 0.8038
+
+Epoch 23
+ avg_training_loss: 0.004718285681009292
+ avg_training_acc: 0.79274
+ avg_test_loss: 0.004501032510399818
+ avg_test_acc: 0.8087
+
+Epoch 24
+ avg_training_loss: 0.004617158228158951
+ avg_training_acc: 0.79942
+ avg_test_loss: 0.004362354809045792
+ avg_test_acc: 0.8161
+
+Epoch 25
+ avg_training_loss: 0.004572633615732193
+ avg_training_acc: 0.79854
+ avg_test_loss: 0.004347708410024643
+ avg_test_acc: 0.82
+
+Epoch 26
+ avg_training_loss: 0.004520169018507004
+ avg_training_acc: 0.80184
+ avg_test_loss: 0.004258315888047219
+ avg_test_acc: 0.8213
+
+Epoch 27
+ avg_training_loss: 0.004424139240384102
+ avg_training_acc: 0.80584
+ avg_test_loss: 0.004290612173080444
+ avg_test_acc: 0.8246
+
+Epoch 28
+ avg_training_loss: 0.004353186776638031
+ avg_training_acc: 0.80948
+ avg_test_loss: 0.004167036351561546
+ avg_test_acc: 0.8225
+
+Epoch 29
+ avg_training_loss: 0.0043516611272096635
+ avg_training_acc: 0.81008
+ avg_test_loss: 0.004135584282875061
+ avg_test_acc: 0.8197
+
+Epoch 30
+ avg_training_loss: 0.004210393962860107
+ avg_training_acc: 0.8157
+ avg_test_loss: 0.004153678095340728
+ avg_test_acc: 0.8217
+
+Epoch 31
+ avg_training_loss: 0.004233119634985924
+ avg_training_acc: 0.8129
+ avg_test_loss: 0.00413847488462925
+ avg_test_acc: 0.8258
+
+Epoch 32
+ avg_training_loss: 0.00409292001247406
+ avg_training_acc: 0.82002
+ avg_test_loss: 0.004013794377446174
+ avg_test_acc: 0.8321
+
+Epoch 33
+ avg_training_loss: 0.004127952326536179
+ avg_training_acc: 0.81932
+ avg_test_loss: 0.003961738434433937
+ avg_test_acc: 0.8308
+
+Epoch 34
+ avg_training_loss: 0.004049896035194397
+ avg_training_acc: 0.82134
+ avg_test_loss: 0.0038477780133485792
+ avg_test_acc: 0.8341
+
+Epoch 35
+ avg_training_loss: 0.004024751346111298
+ avg_training_acc: 0.82486
+ avg_test_loss: 0.0041382163316011425
+ avg_test_acc: 0.8311
+
+Epoch 36
+ avg_training_loss: 0.003919949148893357
+ avg_training_acc: 0.82756
+ avg_test_loss: 0.004121940553188324
+ avg_test_acc: 0.8301
+
+Epoch 37
+ avg_training_loss: 0.003901873819231987
+ avg_training_acc: 0.82936
+ avg_test_loss: 0.003843853208422661
+ avg_test_acc: 0.8377
+
+Epoch 38
+ avg_training_loss: 0.0038244459396600725
+ avg_training_acc: 0.83258
+ avg_test_loss: 0.004308883181214333
+ avg_test_acc: 0.8272
+
+Epoch 39
+ avg_training_loss: 0.0038002744936943052
+ avg_training_acc: 0.835
+ avg_test_loss: 0.003744340725243092
+ avg_test_acc: 0.8443
+
+Epoch 40
+ avg_training_loss: 0.003767994871735573
+ avg_training_acc: 0.83518
+ avg_test_loss: 0.0038282037109136583
+ avg_test_acc: 0.8371
+
+Epoch 41
+ avg_training_loss: 0.003761114411354065
+ avg_training_acc: 0.83468
+ avg_test_loss: 0.0040070122718811035
+ avg_test_acc: 0.8338
+
+Epoch 42
+ avg_training_loss: 0.003654531480669975
+ avg_training_acc: 0.83864
+ avg_test_loss: 0.003906723970174789
+ avg_test_acc: 0.8392
+
+Epoch 43
+ avg_training_loss: 0.003684340779185295
+ avg_training_acc: 0.8374
+ avg_test_loss: 0.003672595977783203
+ avg_test_acc: 0.8465
+
+Epoch 44
+ avg_training_loss: 0.0035962460309267043
+ avg_training_acc: 0.84228
+ avg_test_loss: 0.0038559397727251053
+ avg_test_acc: 0.8397
+
+Epoch 45
+ avg_training_loss: 0.0035814875656366347
+ avg_training_acc: 0.83996
+ avg_test_loss: 0.004020023486018181
+ avg_test_acc: 0.836
+
+Epoch 46
+ avg_training_loss: 0.003521813498735428
+ avg_training_acc: 0.84316
+ avg_test_loss: 0.003813466441631317
+ avg_test_acc: 0.8458
+
+Epoch 47
+ avg_training_loss: 0.0034703065675497054
+ avg_training_acc: 0.84798
+ avg_test_loss: 0.0037194371938705445
+ avg_test_acc: 0.8448
+
+Epoch 48
+ avg_training_loss: 0.003485130994915962
+ avg_training_acc: 0.8462
+ avg_test_loss: 0.0036039269238710404
+ avg_test_acc: 0.8498
+
+Epoch 49
+ avg_training_loss: 0.0034540361481904982
+ avg_training_acc: 0.8488
+ avg_test_loss: 0.003557740980386734
+ avg_test_acc: 0.8468
+
+Epoch 50
+ avg_training_loss: 0.0034098817905783654
+ avg_training_acc: 0.84878
+ avg_test_loss: 0.0038768652856349946
+ avg_test_acc: 0.8355
+
+Epoch 51
+ avg_training_loss: 0.0033654563653469087
+ avg_training_acc: 0.85184
+ avg_test_loss: 0.003996689671278
+ avg_test_acc: 0.8345
+
+Epoch 52
+ avg_training_loss: 0.0033411239850521086
+ avg_training_acc: 0.85404
+ avg_test_loss: 0.003842836731672287
+ avg_test_acc: 0.8451
+
+Epoch 53
+ avg_training_loss: 0.0032744171530008316
+ avg_training_acc: 0.85662
+ avg_test_loss: 0.0036139489859342575
+ avg_test_acc: 0.8497
+
+Epoch 54
+ avg_training_loss: 0.0032873804599046707
+ avg_training_acc: 0.85514
+ avg_test_loss: 0.0037918098032474518
+ avg_test_acc: 0.8464
+
+Epoch 55
+ avg_training_loss: 0.0032392016059160232
+ avg_training_acc: 0.85756
+ avg_test_loss: 0.0038552919894456862
+ avg_test_acc: 0.8446
+
+Epoch 56
+ avg_training_loss: 0.0032190613865852357
+ avg_training_acc: 0.85662
+ avg_test_loss: 0.003681052762269974
+ avg_test_acc: 0.8537
+
+Epoch 57
+ avg_training_loss: 0.0032090166494250297
+ avg_training_acc: 0.85692
+ avg_test_loss: 0.003926562440395355
+ avg_test_acc: 0.8469
+
+Epoch 58
+ avg_training_loss: 0.0032072979748249053
+ avg_training_acc: 0.85818
+ avg_test_loss: 0.00376721276640892
+ avg_test_acc: 0.8463
+
+Epoch 59
+ avg_training_loss: 0.003142035232484341
+ avg_training_acc: 0.86182
+ avg_test_loss: 0.003928224667906761
+ avg_test_acc: 0.8441
+
+Epoch 60
+ avg_training_loss: 0.003131297781765461
+ avg_training_acc: 0.86306
+ avg_test_loss: 0.0034848989009857176
+ avg_test_acc: 0.8554
+
+Epoch 61
+ avg_training_loss: 0.0030938770192861557
+ avg_training_acc: 0.86516
+ avg_test_loss: 0.003664776983857155
+ avg_test_acc: 0.8494
+
+Epoch 62
+ avg_training_loss: 0.003097405737042427
+ avg_training_acc: 0.86238
+ avg_test_loss: 0.0035467562347650528
+ avg_test_acc: 0.8536
+
+Epoch 63
+ avg_training_loss: 0.003037442540228367
+ avg_training_acc: 0.86626
+ avg_test_loss: 0.0037158206507563593
+ avg_test_acc: 0.8487
+
+Epoch 64
+ avg_training_loss: 0.0030136848738789557
+ avg_training_acc: 0.86626
+ avg_test_loss: 0.0036703409314155578
+ avg_test_acc: 0.85
+
+Epoch 65
+ avg_training_loss: 0.0030424892085790635
+ avg_training_acc: 0.8665
+ avg_test_loss: 0.0037146042957901955
+ avg_test_acc: 0.8488
+
+Epoch 66
+ avg_training_loss: 0.0029866967362165452
+ avg_training_acc: 0.8689
+ avg_test_loss: 0.0036531796470284463
+ avg_test_acc: 0.8521
+
+Epoch 67
+ avg_training_loss: 0.0030118709072470664
+ avg_training_acc: 0.86696
+ avg_test_loss: 0.003752561241388321
+ avg_test_acc: 0.8469
+
+Epoch 68
+ avg_training_loss: 0.0029617489764094352
+ avg_training_acc: 0.8686
+ avg_test_loss: 0.0035450599521398545
+ avg_test_acc: 0.8544
+
+Epoch 69
+ avg_training_loss: 0.0029611786106228826
+ avg_training_acc: 0.8687
+ avg_test_loss: 0.0038413523122668267
+ avg_test_acc: 0.8444
+
+Epoch 70
+ avg_training_loss: 0.0029381211379170416
+ avg_training_acc: 0.87144
+ avg_test_loss: 0.0037060237377882005
+ avg_test_acc: 0.8471
+
+Epoch 71
+ avg_training_loss: 0.002961728836297989
+ avg_training_acc: 0.87024
+ avg_test_loss: 0.0035983376041054727
+ avg_test_acc: 0.849
+
+Epoch 72
+ avg_training_loss: 0.002886900677680969
+ avg_training_acc: 0.87158
+ avg_test_loss: 0.0036432513177394868
+ avg_test_acc: 0.8519
+
+Epoch 73
+ avg_training_loss: 0.002843937277495861
+ avg_training_acc: 0.87458
+ avg_test_loss: 0.004127516970038414
+ avg_test_acc: 0.8421
+
+Epoch 74
+ avg_training_loss: 0.0028699081170558928
+ avg_training_acc: 0.87398
+ avg_test_loss: 0.003521456518769264
+ avg_test_acc: 0.8554
+
+Epoch 75
+ avg_training_loss: 0.0028016046550869943
+ avg_training_acc: 0.8773
+ avg_test_loss: 0.0034461542308330535
+ avg_test_acc: 0.8608
+
+Epoch 76
+ avg_training_loss: 0.0028565536203980445
+ avg_training_acc: 0.87406
+ avg_test_loss: 0.0033891423478722574
+ avg_test_acc: 0.861
+
+Epoch 77
+ avg_training_loss: 0.0028016177025437356
+ avg_training_acc: 0.8765
+ avg_test_loss: 0.003738924750685692
+ avg_test_acc: 0.8506
+
+Epoch 78
+ avg_training_loss: 0.0028099205124378205
+ avg_training_acc: 0.87486
+ avg_test_loss: 0.0037932939767837525
+ avg_test_acc: 0.8544
+
+Epoch 79
+ avg_training_loss: 0.0027688601246476175
+ avg_training_acc: 0.87876
+ avg_test_loss: 0.0035872395917773245
+ avg_test_acc: 0.8585
+
+Epoch 80
+ avg_training_loss: 0.0027250643110275268
+ avg_training_acc: 0.87966
+ avg_test_loss: 0.003607150903344154
+ avg_test_acc: 0.8535
+
+Epoch 81
+ avg_training_loss: 0.0027541056060791016
+ avg_training_acc: 0.87866
+ avg_test_loss: 0.0035330260872840883
+ avg_test_acc: 0.8593
+
+Epoch 82
+ avg_training_loss: 0.0027422185119986534
+ avg_training_acc: 0.8786
+ avg_test_loss: 0.0037528716430068015
+ avg_test_acc: 0.8556
+
+Epoch 83
+ avg_training_loss: 0.002713418526947498
+ avg_training_acc: 0.87984
+ avg_test_loss: 0.0034536507040262223
+ avg_test_acc: 0.8594
+
+Epoch 84
+ avg_training_loss: 0.002714455628693104
+ avg_training_acc: 0.88192
+ avg_test_loss: 0.0036384523525834086
+ avg_test_acc: 0.855
+
+Epoch 85
+ avg_training_loss: 0.002657120625376701
+ avg_training_acc: 0.8823
+ avg_test_loss: 0.0034919149965047837
+ avg_test_acc: 0.8594
+
+Epoch 86
+ avg_training_loss: 0.002629242614507675
+ avg_training_acc: 0.88278
+ avg_test_loss: 0.0035306634053587915
+ avg_test_acc: 0.8587
+
+Epoch 87
+ avg_training_loss: 0.0026307148817181587
+ avg_training_acc: 0.88432
+ avg_test_loss: 0.0037485628873109816
+ avg_test_acc: 0.8517
+
+Epoch 88
+ avg_training_loss: 0.0025937576538324356
+ avg_training_acc: 0.88582
+ avg_test_loss: 0.0035324425965547563
+ avg_test_acc: 0.8607
+
+Epoch 89
+ avg_training_loss: 0.002608821468949318
+ avg_training_acc: 0.8852
+ avg_test_loss: 0.0036041399613022805
+ avg_test_acc: 0.8574
+
+Epoch 90
+ avg_training_loss: 0.0026547765386104585
+ avg_training_acc: 0.884
+ avg_test_loss: 0.003511559022963047
+ avg_test_acc: 0.8578
+
+Epoch 91
+ avg_training_loss: 0.0025798480582237245
+ avg_training_acc: 0.88634
+ avg_test_loss: 0.0034231960624456406
+ avg_test_acc: 0.8606
+
+Epoch 92
+ avg_training_loss: 0.002628740975558758
+ avg_training_acc: 0.8845
+ avg_test_loss: 0.0035422548845410345
+ avg_test_acc: 0.8624
+
+Epoch 93
+ avg_training_loss: 0.002558485042154789
+ avg_training_acc: 0.88708
+ avg_test_loss: 0.003544045381247997
+ avg_test_acc: 0.8633
+
+Epoch 94
+ avg_training_loss: 0.0025337856109440325
+ avg_training_acc: 0.8887
+ avg_test_loss: 0.003559612813591957
+ avg_test_acc: 0.8591
+
+Epoch 95
+ avg_training_loss: 0.0025534406962990763
+ avg_training_acc: 0.88728
+ avg_test_loss: 0.0035702637672424316
+ avg_test_acc: 0.861
+
+Epoch 96
+ avg_training_loss: 0.0025633595854043963
+ avg_training_acc: 0.88806
+ avg_test_loss: 0.0034504842206835745
+ avg_test_acc: 0.8604
+
+Epoch 97
+ avg_training_loss: 0.002519401363134384
+ avg_training_acc: 0.88942
+ avg_test_loss: 0.0036862115293741227
+ avg_test_acc: 0.8575
+
+Epoch 98
+ avg_training_loss: 0.002529517389237881
+ avg_training_acc: 0.89022
+ avg_test_loss: 0.0036177586406469344
+ avg_test_acc: 0.8598
+
+Epoch 99
+ avg_training_loss: 0.002485421986877918
+ avg_training_acc: 0.8912
+ avg_test_loss: 0.0038424568802118302
+ avg_test_acc: 0.8586
+
+Epoch 100
+ avg_training_loss: 0.002553173109292984
+ avg_training_acc: 0.88698
+ avg_test_loss: 0.003727850404381752
+ avg_test_acc: 0.8607
+

@@ -1,0 +1,18 @@
+project-key: CIF
+
+name: CIF10 with pytorch
+tags: [torch]
+
+environment: keras-2.0-gpu-py3
+
+exclude:
+  - data
+  - resources/fashion_mnist/solution
+  - resources/whales/solution
+  - resources/whales/data
+  - output
+  - neptune.log
+  - offline_job.log
+  - .idea
+  - .git
+  - .ipynb_checkpoints
